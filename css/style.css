@@ -88,7 +88,7 @@ header .hero {
    position: relative;
  }
  header .hero h1 {
-   font-size: 60px;
+   font-size: 40px;
    font-weight: normal;
    margin:95px 0 0;
  }
@@ -101,6 +101,7 @@ header .hero {
  header .hero img {
    display: block;
    margin:3em auto 0;
+   min-width: 100%;
  }
   /* BUTTONS */
  .btn {
@@ -579,6 +580,7 @@ header .hero {
  }
 /* Tablets */
  @media (min-width:768px) {
+  }
    .content {
      padding:1.5em 5%;
      float:right;
@@ -594,12 +596,27 @@ header .hero {
    }
 /* Laptops and Desktops */
  @media (min-width:992px) {
+  }
    .content {
      padding:1.5em 1%;
      float:right;
      width:83.33333333%;
      position: relative;
    }
+ /* TV */
+   @media (min-width:1600px) {
+   .hero h1 {
+    font-size: 60px;
+   }
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:83.33333333%;
+     position: relative;
+ 
+     }
+   }
+
    .content > .container {
      width:auto;
    }

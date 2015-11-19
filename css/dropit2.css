@@ -8,13 +8,13 @@
  */
 
 /* These styles assume you are using ul and li */
-.menu2 {
+/*.menu2 {
   list-style: none;
   padding: 0;
   margin: 15px 0 0;
   float: right;
   display: inline-block; 
-}
+}*/
 
 .menu2 .dropit-trigger {
   position: relative; }
