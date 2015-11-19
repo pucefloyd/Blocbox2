@@ -453,22 +453,6 @@ header .hero {
    .hamburger {
      display:none;
    }
-
-   .hamburger2 {
-   position:absolute;
-   z-index: 1000;
-   background:#34495E;
-   color:#FFF;
-   text-decoration: none;
-   font-size: 22px;
-   padding: 10px 15px;
-   border-radius: 4px;
-   left: 5px;
-   top: 15px;
- }
-    .hamburger2 {
-     display:none;
-   }
  .left-nav .site-logo {
    padding:20px 0;
    background:#34495E;
@@ -528,13 +512,14 @@ header .hero {
    font-weight: 400;
    margin:0 0 0 10px;
  }
- .left-nav .settings a {
+ .left-nav .settings .hamburger2 {
    color:#FFFFFF;
    text-decoration: none;
    text-align: right;
    float: right;
    margin-right:10px;
-   margin-top:8px;
+   position: relative;
+   bottom: ;
  }
   /* CONTENT */
  .content {

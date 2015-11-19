@@ -8,56 +8,55 @@
  */
 
 /* These styles assume you are using ul and li */
-.dropit2 {
-    list-style: none;
-	  padding: 0;
-    margin: 15px 0 0;
-    float:right;
-    display:inline-block;
+.menu2 {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  float: right;
+  display: inline-block; 
+}
 
-}
-.dropit2 .dropit-trigger { position: relative; }
-.dropit2 .dropit-submenu {
-    position: absolute;
-    top:100%;
-    right: 0; /* dropdown left or right */
-    z-index: 1000;
-    display: none;
-    min-width: 100px;
-    list-style: none;
-    padding: 20px;
-    margin: 20px 0 0;
-    
+.menu2 .dropit-trigger {
+  position: relative; }
 
-}
-.dropit2 .dropit-open .dropit-submenu { 
-    display: block;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
-    border-radius: 4px; 
-}
-.dropit2 .dropit-open .dropit-submenu:after {
+.menu2 .dropit-submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 180px;
+  list-style: none;
+  padding: 20px;
+  margin: -190px 0 0; }
+
+.menu2 .dropit-open .dropit-submenu {
+  display: block;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 4px; }
+
+.menu2 .dropit-open .dropit-submenu:after {
   content: " ";
   position: absolute;
   border-style: solid;
-  border-width: 0 8px 8px;
-  border-color: #FFFFFF transparent;
+  border-width: 8px 8px 0;
+  border-color: #ffffff transparent;
   display: block;
   width: 0;
   z-index: 1;
-  top: 10px;
-  right: 10px;
- }
- .dropit2 .dropit-open .dropit-submenu li {
+  top: 176px;
+  right: 9px; }
+
+.menu2 .dropit-open .dropit-submenu li {
   display: block;
-  margin-bottom: 20px;
- }
- .dropit .dropit-open .dropit-submenu li:last-child {
-  margin-bottom: 0px;
- }
- .dropit2 .dropit-open .dropit-submenu li a {
-  color:#34495E;
+  margin-bottom: 20px; }
+
+.menu2 .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 0px; }
+
+.menu2 .dropit-open .dropit-submenu li a {
+  color: #00331e;
   text-decoration: none;
-  font-family: "PT sans-serif", Helvetica, Arial, sans-serif;
-  font-weight:100;
- }
+  font-family: "PPT sans-serif", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
