@@ -384,7 +384,7 @@ header .hero {
        width: 1570px;
    }
    h1 {
-       font-size:5em;
+       font-size:60px;
    }
 
 /* DASHBOARD */
@@ -603,20 +603,6 @@ header .hero {
      width:83.33333333%;
      position: relative;
    }
- /* TV */
-   @media (min-width:1600px) {
-   .hero h1 {
-    font-size: 60px;
-   }
-   .content {
-     padding:1.5em 1%;
-     float:right;
-     width:83.33333333%;
-     position: relative;
- 
-     }
-   }
-
    .content > .container {
      width:auto;
    }
