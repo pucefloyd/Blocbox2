@@ -559,9 +559,9 @@ header .hero {
    overflow: hidden;
    padding:20px;
  }
- .active a:link {
+ .active  {
     background-color: green;
-}
+ }
  /* Larger Mobile Devices */
  @media (min-width:460px) {
    .content {
