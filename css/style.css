@@ -313,11 +313,13 @@ header .hero {
    background-color: transparent;
  }
  footer .logo{
-   padding: 2.35em 0;
-   margin: 0 auto;
+   padding: .5em 0;
    display: block;
+   margin: 0 auto;
+   margin-left: 150px;
+   margin-top: -20px;
  }
-@media (min-width: 992px){
+@media (min-width: 320px){
    footer{
      background-color: #3498DB;
      background-image: linear-gradient(to left,
@@ -381,7 +383,7 @@ header .hero {
    left: 5px;
    top: 15px;
  }
-  @media (min-width:992px) {
+  @media (min-width:320px) {
    .left-nav {
      height: 100vh;
      width:14.66666667%;
@@ -516,7 +518,7 @@ header .hero {
     background-color: green;
  }
  /* Larger Mobile Devices */
- @media (min-width:460px) {
+ /*@media (min-width:460px) {
    .content {
      padding:1.5em 1%;
      float:right;
@@ -530,7 +532,7 @@ header .hero {
      display:block;
    }
  }
-/* Tablets */
+/* Tablets 
  @media (min-width:768px) {
   }
    .content {
@@ -547,8 +549,8 @@ header .hero {
      margin:0 1% 25px;
    }
 /* Laptops and Desktops */
- @media (min-width:992px) {
-  }
+ /*@media (min-width:992px) {
+  }*/
    .content {
      padding:1.5em 1%;
      float:right;
@@ -599,12 +601,18 @@ header .hero {
   .container {
      width:310;
    }
-   .one-half {
-     width:46%;
- }
- h1 {
-       font-size:1.2em;
-   }
+  nav > div {
+    display: inline;
+  }
+  img {
+    width: 50%;
+  }
+
+  nav ul, nav li {
+    padding: 0;
+    margin: 0;
+  }
+}
 
 @media (min-width: 768px) {
    .container {
